@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+
+<packages>
+<package name="Basic_Introduction_Testng"></package>
+<package name="Booking_Travel_Holiday"></package>
+<package name="OnlineChecking"></package>
+<package name="Parameterization"></package>
+</packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

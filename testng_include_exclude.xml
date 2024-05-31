@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Basic_Introduction_Testng.Example_1">
+      <methods>
+      <include name ="testcase1()"/>
+      <include name = "testcase2()/"> </include>
+      </methods>
+      </class>
+      <class name="OnlineChecking.OfflineChecking">
+      <methods>
+      <exclude name ="OfflineChecking_PNR_Number_Testcase2()"></exclude>
+      </methods>
+      </class>
+      <class name="Booking_Travel_Holiday.BookFlight">
+      <methods>
+      <include name ="bookFlight_RoundTrip_TestCase1()"></include>
+      </methods>
+      </class>
+      <class name="Booking_Travel_Holiday.BookHotel">
+      <methods>
+      <exclude name="bookHotle_DestinationCity_Testcase1()"> </exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
