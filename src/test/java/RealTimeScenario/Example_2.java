@@ -17,18 +17,20 @@ public class Example_2 {
 	public void testcase1() throws InterruptedException {
 		System.out.println("Example_2 class I am inside testcase1() ="+Thread.currentThread().getId());
 		driver = new ChromeDriver();
-		driver.get("https://google.com");
+		driver.get("https://www.google.com/");
 		Thread.sleep(3000);
 		driver.quit();
 	}
+	/*
+	 * 
 	
 	@Test
 	public void testcase2() throws InterruptedException {
 		System.out.println("Example_2 class I am inside testcase2() ="+Thread.currentThread().getId());
 		driver = new ChromeDriver();
-		driver.get("https://yahoo.com");{
+		driver.get("https://www.yahoo.com");{
 		Thread.sleep(3000);
 		driver.quit();
 		}
-	}
+	}  */
 }
